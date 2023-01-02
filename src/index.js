@@ -1,1 +1,3 @@
-console.log("Happy new year!");
+import { initHomepage } from "./page-load";
+
+initHomepage();

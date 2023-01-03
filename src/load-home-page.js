@@ -1,7 +1,8 @@
 import mexicanFood from "../asset/mexican-food.jpg";
 
-const initHomepage = () => {
+const homePage = () => {
   const contentContainer = document.querySelector("#content");
+  contentContainer.innerHTML = '';
 
   const foodImg = new Image();
   foodImg.src = mexicanFood;
@@ -17,4 +18,4 @@ const initHomepage = () => {
   contentContainer.appendChild(copy);
 };
 
-export { initHomepage };
+export { homePage };

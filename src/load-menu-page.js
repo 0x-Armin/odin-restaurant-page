@@ -1,6 +1,7 @@
 const menuPage = () => {
   const contentContainer = document.querySelector("#content");
   contentContainer.innerHTML = "";
+  contentContainer.classList.add('menu');
 
   const header = document.createElement("h1");
   header.innerHTML = "Delicious Mexican cuisine served right to you";

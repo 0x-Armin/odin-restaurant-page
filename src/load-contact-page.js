@@ -1,6 +1,7 @@
 const contactPage = () => {
   const contentContainer = document.querySelector("#content");
   contentContainer.innerHTML = '';
+  contentContainer.classList.add('contact');
 
   const header = document.createElement("h1");
   header.innerHTML = 'Contact';

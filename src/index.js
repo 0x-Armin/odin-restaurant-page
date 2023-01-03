@@ -1,3 +1,5 @@
+import './style.css';
+
 import { homePage } from "./load-home-page";
 import { menuPage } from "./load-menu-page";
 import { contactPage } from "./load-contact-page";
